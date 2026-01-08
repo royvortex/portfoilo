@@ -12,7 +12,7 @@ interface ExperienceItem {
 const experiences: ExperienceItem[] = [
   {
     company: "Hypercraft",
-    title: "Lead Developer",
+    title: "Developer",
     period: "Present",
     description:
       "Spearheading development of core game modes and network infrastructure. creating custom plugins to enhance player experience.",
@@ -22,25 +22,25 @@ const experiences: ExperienceItem[] = [
     title: "Senior Developer",
     period: "Past",
     description:
-      "Managed server systems and implemented custom gameplay features for the Indian Minecraft community.",
+      "Managed server systems and implemented custom gameplay features.",
   },
   {
     company: "PerishSMP",
-    title: "Plugin Developer",
-    period: "Past",
+    title: "Lead Developer",
+    period: "Present",
     description:
-      "Developed custom SMP mechanics and optimized server performance for high player counts.",
+      "Developed custom SMP mechanics.",
   },
   {
     company: "CashMC",
     title: "Developer",
     period: "Past",
     description:
-      "Contributed to economy systems and gamemode development.",
+      "Contributed to optimization of server performance and smooth systems.",
   },
   {
     company: "CloakMC",
-    title: "Junior Developer",
+    title: "Developer",
     period: "Past",
     description:
       "Assisted with plugin configuration, bug fixes, and feature implementation.",
