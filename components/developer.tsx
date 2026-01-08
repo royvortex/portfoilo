@@ -56,26 +56,7 @@ export default function Developer() {
               </p>
             </section>
 
-            <section>
-              <h2 className="text-2xl font-bold text-foreground mb-4">Local Development Setup</h2>
-              <div className="bg-muted p-4 rounded space-y-2 text-sm font-mono text-foreground">
-                <p>
-                  <span className="text-muted-foreground">OS:</span> macOS
-                </p>
-                <p>
-                  <span className="text-muted-foreground">Editor:</span> VS Code
-                </p>
-                <p>
-                  <span className="text-muted-foreground">Terminal:</span> Zsh
-                </p>
-                <p>
-                  <span className="text-muted-foreground">Node:</span> v20.0.0+
-                </p>
-                <p>
-                  <span className="text-muted-foreground">Package Manager:</span> pnpm
-                </p>
-              </div>
-            </section>
+
 
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-4">Tech Stack</h2>

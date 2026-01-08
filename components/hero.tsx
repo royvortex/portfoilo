@@ -39,12 +39,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
-          <Link
-            href="/#projects"
-            className="inline-flex items-center justify-center px-8 py-4 bg-foreground text-background font-semibold rounded-lg hover:shadow-lg hover:scale-105 transition-all duration-300"
-          >
-            View My Work
-          </Link>
+
           <Link
             href="/#contact"
             className="inline-flex items-center justify-center px-8 py-4 border-2 border-foreground text-foreground font-semibold rounded-lg hover:bg-foreground/10 hover:shadow-lg transition-all duration-300"

@@ -21,11 +21,7 @@ export default function Header() {
               About
             </Link>
           </li>
-          <li>
-            <Link href="/#projects" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Projects
-            </Link>
-          </li>
+
           <li>
             <Link href="/#experience" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Experience
@@ -68,15 +64,7 @@ export default function Header() {
                 About
               </Link>
             </li>
-            <li>
-              <Link
-                href="/#projects"
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Projects
-              </Link>
-            </li>
+
             <li>
               <Link
                 href="/#experience"
