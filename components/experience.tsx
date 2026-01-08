@@ -11,25 +11,39 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
-    company: "Tech Company Inc",
-    title: "Senior Frontend Engineer",
-    period: "2022 — Present",
+    company: "Hypercraft",
+    title: "Lead Developer",
+    period: "Present",
     description:
-      "Leading frontend architecture and mentoring junior developers. Focused on performance optimization and accessibility.",
+      "Spearheading development of core game modes and network infrastructure. creating custom plugins to enhance player experience.",
   },
   {
-    company: "Digital Studio",
-    title: "Full Stack Developer",
-    period: "2020 — 2022",
+    company: "BharatMC",
+    title: "Senior Developer",
+    period: "Past",
     description:
-      "Developed and maintained multiple client projects using React and Node.js. Implemented CI/CD pipelines and improved deployment processes.",
+      "Managed server systems and implemented custom gameplay features for the Indian Minecraft community.",
   },
   {
-    company: "StartUp Labs",
+    company: "PerishSMP",
+    title: "Plugin Developer",
+    period: "Past",
+    description:
+      "Developed custom SMP mechanics and optimized server performance for high player counts.",
+  },
+  {
+    company: "CashMC",
+    title: "Developer",
+    period: "Past",
+    description:
+      "Contributed to economy systems and gamemode development.",
+  },
+  {
+    company: "CloakMC",
     title: "Junior Developer",
-    period: "2018 — 2020",
+    period: "Past",
     description:
-      "Built responsive web applications and learned modern development practices. Collaborated with designers and product teams.",
+      "Assisted with plugin configuration, bug fixes, and feature implementation.",
   },
 ]
 

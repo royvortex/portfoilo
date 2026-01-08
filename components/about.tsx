@@ -12,13 +12,14 @@ export default function About() {
           <div className="lg:col-span-2">
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a full-stack developer passionate about building accessible, performant web experiences. With a
-                focus on clean code and thoughtful design, I craft solutions that balance aesthetics with functionality.
+                I'm a full-stack developer with a deep passion for the Minecraft ecosystem. I specialize in building
+                custom plugins, configuring huge networks, and creating web applications that bridge the gap between
+                game servers and the web.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Currently, I work with modern web technologies including React, TypeScript, and Next.js to create
-                applications that users love to interact with. I believe in continuous learning and staying updated with
-                the latest industry trends.
+                With experience across top servers like Hypercraft and BharatMC, I bring a unique blend of game design
+                intuition and technical expertise to every project. I thrive on creating immersive experiences for players
+                and robust tools for administrators.
               </p>
             </div>
           </div>
@@ -47,20 +48,7 @@ export default function About() {
           </motion.div>
         </div>
 
-        <Link
-          href="/resume.pdf"
-          className="inline-flex items-center gap-2 text-foreground hover:text-muted-foreground font-semibold transition-colors mt-8 border-2 border-foreground px-6 py-3 rounded-lg hover:bg-foreground/5 hover:shadow-lg"
-        >
-          Download CV
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
-            />
-          </svg>
-        </Link>
+
       </motion.div>
     </section>
   )
